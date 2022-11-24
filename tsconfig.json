@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "module": "es2015",                       /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "outDir": "./build",                      /* Redirect output structure to the directory. */
+
+    /* Projects */
+    "incremental": true,                      /* Enable incremental compilation */
+
+    /* Language and Environment */
+    "target": "ES2021",                       /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    "lib": ["ES2021"],                        /* Specify library files to be included in the compilation. */
+
+    /* Modules */
+    "moduleResolution": "node",
+
+    /* Interop Constraints */
+    "isolatedModules": true,                  /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+    // rely on esModuleInterop only if you're just importing types, otherwise do import x = require(...) to highlight the possibility of side effects
+    "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+
+    /* Completeness */
+    "skipLibCheck": true                      /* Skip type checking of declaration files. */
+  },
+  "include": [
+    "**/*.ts",
+    "*.ts"
+  ],
+  "exclude": ["node_modules", "dist", "build"]
+}

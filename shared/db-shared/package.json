@@ -1,0 +1,11 @@
+{
+  "name": "db-shared",
+  "version": "1.0.0",
+  "description": "Provides database access with configuration",
+  "scripts": {
+    "dist": "rollup -c"
+  },
+  "dependencies": {
+    "knex": "^2.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "main-app",
+  "version": "1.0.0",
+  "description": "A sample app which utilizes db-shared",
+  "scripts": {
+    "dist": "rollup -c"
+  },
+  "dependencies": {
+    "db-shared": "^1.0.0"
+  }
+}
